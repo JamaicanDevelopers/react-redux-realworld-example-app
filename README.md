@@ -19,6 +19,15 @@ You can view a live demo over at https://react-redux.realworld.io/
 
 To get the frontend running locally:
 
+#### option 1: use Docker
+
+##### Running the application for the first time
+```
+docker run -d -p 8092:4100   --name frontend-react-redux realworldio/frontend-react-redux
+```
+
+#### option 2: install locally 
+
 - Clone this repo
 - `npm install` to install all req'd dependencies
 - `npm start` to start the local server (this project uses create-react-app)
